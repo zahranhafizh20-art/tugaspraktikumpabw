@@ -1,0 +1,143 @@
+/* ============================================
+   CSS LaporBanjir - versi sederhana
+   ============================================ */
+
+/* 1. Pengaturan dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* 2. Header dan menu */
+.header {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #2c3e50;
+}
+
+.header h1 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.header small {
+    color: #777;
+}
+
+.nav {
+    margin-top: 12px;
+}
+
+.nav a {
+    color: #2c3e50;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* 3. Area konten */
+.konten {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.konten h2 {
+    color: #2c3e50;
+}
+
+/* 4. Kartu */
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 12px 0;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* 5. Form */
+.card label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.card input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+/* 6. Tombol */
+button,
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 9px 18px;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+    background: #1a252f;
+}
+
+/* 7. Status (Waspada, Siaga, Awas) */
+.badge {
+    padding: 2px 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.waspada { background: #d5f5e3; color: #1e8449; }
+.siaga   { background: #fdebd0; color: #b9770e; }
+.awas    { background: #fadbd8; color: #922b21; }
+
+/* 8. Alert */
+.laporan-alert {
+    padding: 10px 14px;
+    margin: 12px 0;
+    border: 1px solid;
+}
+
+.laporan-alert-success {
+    background: #d5f5e3;
+    color: #1e8449;
+    border-color: #1e8449;
+}
+
+.laporan-alert-error {
+    background: #fadbd8;
+    color: #922b21;
+    border-color: #922b21;
+}
+
+/* 9. Footer */
+.footer {
+    text-align: center;
+    color: #777;
+    padding: 5px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}
